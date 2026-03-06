@@ -1,0 +1,6 @@
+dataset/
+model/
+*.h5
+*.zip
+__pycache__/
+.env

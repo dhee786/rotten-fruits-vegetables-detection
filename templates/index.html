@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotten Fruits & Veggies · Detection Dashboard</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <main class="dashboard">
+
+        <div class="title-section">
+            <h1>
+                <i class="fas fa-apple-alt"></i>
+                Rotten Detection
+            </h1>
+        </div>
+
+        <!-- Start Button -->
+        <div class="action-area">
+            <button class="detect-btn" id="startDetectBtn">
+                <i class="fas fa-camera"></i> Start Detection
+            </button>
+        </div>
+
+        <!-- Webcam Feed -->
+        <div class="video-container">
+            <img id="video" src="{{url_for('video_feed') }}" width="640" height="480" />
+        </div>
+
+        <!-- Detection Result -->
+        <div class="result-dashboard">
+
+            <div class="result-card">
+                <div class="card-label">Detection Result</div>
+                <div class="detection-value" id="detectionText">
+                    Waiting...
+                </div>
+            </div>
+
+            <div class="result-card">
+                <div class="card-label">Confidence</div>
+                <div class="confidence-percent" id="confidenceValue">0%</div>
+                <div class="confidence-bar-bg">
+                    <div class="confidence-fill" id="confidenceBar" style="width: 0%;"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
