@@ -42,13 +42,13 @@ This project demonstrates practical implementation of:
 
 ## Detection Result
 
-![Detection](images/Img3.png.png)
+![Prediction](images/Img3.png.png)
 
 ---
 
 ## Model Prediction
 
-![Prediction](images/img2.png.png)
+![Detection](images/img2.png.png)
 
 ---
 
@@ -105,10 +105,10 @@ project
 │   └── index.html
 │
 ├── images
-│   ├── dashboard.png
-│   ├── detection.png
-│   ├── prediction.png
-│   └── interface.png
+│   ├── Img1.png
+│   ├── Img3.png
+│   ├── Img4.png
+│   └── Img2.png
 │
 ├── dataset
 │
