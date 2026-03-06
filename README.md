@@ -34,27 +34,27 @@ This project demonstrates practical implementation of:
 
 # 🖼️ Project Screenshots
 
-## Dashboard
+## Flask Server Running
 
-![Dashboard](images/img2.png)
+![Dashboard](images/Img1.png.png)
 
 ---
 
 ## Detection Result
 
-![Detection](images/img3.png)
+![Detection](images/Img3.png.png)
 
 ---
 
 ## Model Prediction
 
-![Prediction](images/2.png)
+![Prediction](images/img2.png.png)
 
 ---
 
 ## Application Interface
 
-![Interface](images/img1.png)
+![Interface](images/Img1.png.png)
 
 ---
 
