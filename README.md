@@ -40,13 +40,13 @@ This project demonstrates practical implementation of:
 
 ---
 
-## Detection Result
+## Prediction Result
 
 ![Prediction](images/Img3.png.png)
 
 ---
 
-## Model Prediction
+## Detection Result
 
 ![Detection](images/img2.png.png)
 
