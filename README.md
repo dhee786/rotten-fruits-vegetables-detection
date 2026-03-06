@@ -36,7 +36,7 @@ This project demonstrates practical implementation of:
 
 ## Flask Server Running
 
-![Dashboard](images/Img1.png.png)
+![Dashboard](images/Img4.png.png)
 
 ---
 
